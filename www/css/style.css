@@ -1,0 +1,56 @@
+/*General*/
+a {
+  text-decoration: none;
+}
+
+.spinner svg {
+  position: absolute;
+  width: 19% !important;
+  height: 85px !important;
+  margin-top: 40%;
+  left: 40%;
+}
+
+/*Book list*/
+.main-page .item {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin: 1px;
+}
+
+.main-page .item-complex .item-content, .item-radio .item-content {
+    padding: 8px;
+}
+
+.main-page img.cover {
+  width: 130px;
+}
+
+.main-page .list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/*Book Detail*/
+
+.book-detail h1 {
+    font-size: 20px;
+    padding: 8px 0 0 8px;
+}
+
+.book-detail img {
+    width: 50%;
+    max-width: 200px;
+    padding-right: 8px;
+    float: left;
+}
+
+.book-detail p {
+    padding: 8px;
+}
+
+.book-detail p span {
+    font-weight: bold;
+}

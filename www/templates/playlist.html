@@ -1,0 +1,23 @@
+<ion-view view-title="it-Ebooks" class="book-detail" >
+  <ion-spinner icon="spiral" ng-show="showSpinner"></ion-spinner>
+  <ion-content ng-show="showDetailPage">
+    <h1>{{book.Title}}</h1>
+    <p>
+      <img src="{{book.Image}}" alt="" />
+      {{book.SubTitle}}
+      <hr>
+      <a class="ion-android-arrow-down" ng-click="exLink()">
+        DOWNLOAD
+      </a>
+      <br />
+      <span>Author:</span> {{book.Author}}
+      ISBN: {{book.ISBN}}
+      Page: {{book.Page}}
+      Publisher: {{book.Publisher}}
+      Year: {{book.Year}}
+    </p>
+    <p>
+      {{book.Description}}
+    </p>
+  </ion-content>
+</ion-view>
